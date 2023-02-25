@@ -1,0 +1,45 @@
+.hero_wrapper {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(62, 194, 255, 0), rgba(182, 36, 36, 0.5)),
+    url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/05/avatar-2-the-way-of-water.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+}
+.hero {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.hero p {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.btnnn {
+  display: flex;
+}
+.btnnn a {
+  font-size: 2.2rem;
+  padding: 1.5rem 2rem;
+  background: #ff0000;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.5rem;
+}

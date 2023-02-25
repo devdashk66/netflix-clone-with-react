@@ -1,0 +1,133 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  box-shadow: 0rem 0.2rem 1rem 0rem #000000;
+  padding: 2rem 1rem;
+}
+
+.logo h1 {
+  color: red;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.catagory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 3rem;
+}
+
+.catagory a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #dfdfdf;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.catagory a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+
+.bar {
+  font-size: 3rem;
+  cursor: pointer;
+  display: none;
+  color: #fff;
+}
+.logo img {
+  width: 12rem;
+}
+.navWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.search {
+  display: flex;
+  gap: 2rem;
+}
+
+.search svg {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #fff;
+}
+/* ==================== */
+/* Media for responsive */
+/* ==================== */
+
+@media (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  nav {
+    padding: 2rem;
+  }
+  .bar {
+    display: block;
+  }
+  .catagory {
+    position: absolute;
+    top: 69px;
+    left: 0px;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    background: #101011cc;
+    padding: 15.1rem 0;
+    z-index: 999999;
+    transition: 1s;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .catagory a {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .catagory {
+    position: absolute;
+    top: 55px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .catagory {
+    padding: 21.7rem 0;
+  }
+  .catagory a {
+    font-size: 3rem;
+  }
+}
+
+.footer {
+  padding: 4rem 0;
+  color: #fff;
+  background: rgb(46, 46, 46);
+  font-size: 1.6rem;
+}

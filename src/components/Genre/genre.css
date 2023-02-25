@@ -1,0 +1,50 @@
+.genre a {
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  background: red;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 16rem;
+  text-align: center;
+}
+
+.genre {
+  /* padding: rem 0 0rem 0; */
+  text-align: center;
+}
+
+a.rated {
+  background: rgb(67, 67, 195);
+}
+a.thriller {
+  background: rgb(196, 33, 77);
+}
+a.action {
+  background: rgb(195, 133, 32);
+}
+a.animation {
+  background: rgb(15, 154, 55);
+}
+
+a.romance {
+  background: rgb(188, 51, 163);
+}
+a.drama {
+  background: rgb(243, 5, 5);
+}
+a.comedy {
+  background: rgb(0, 90, 120);
+}
+
+.genreHeader {
+  padding-bottom: 2rem;
+}
+.genreHeader h2 {
+  color: #fff;
+  font-size: 3rem;
+  padding: 2rem 1rem;
+  background: #000;
+  margin-bottom: 3rem;
+}
